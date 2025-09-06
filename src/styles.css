@@ -702,3 +702,117 @@ circle.bg {
 .brand:hover {
   color: var(--accent);
 }
+
+/* Extra Small Devices (phones, portrait ie <480px) */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+  .navbar nav {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .hero {
+    padding: 2.5rem 1rem;
+  }
+  .hero h1,
+  .section-title,
+  .page h2 {
+    font-size: 1.5rem;
+  }
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+  .about-card,
+  .card,
+  .project-card {
+    padding: 1rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .skills-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .circle-skill {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Small Devices (phones, landscape, ~480-767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar {
+    padding: 0.8rem 1.5rem;
+    flex-direction: column;
+  }
+  .hero h1,
+  .typing {
+    font-size: 1.6rem;
+  }
+  .page {
+    padding: 2rem 1rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .skills-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .circle-skill {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Medium Devices (tablets, 768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+  .hero h1,
+  .typing,
+  .section-title {
+    font-size: 2rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .skills-grid,
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large Devices (laptops/desktops, 1024px+) */
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 1rem 2rem;
+    flex-direction: row;
+  }
+  .hero h1,
+  .typing,
+  .section-title {
+    font-size: 2.4rem;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  .skills-grid,
+  .contact-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
