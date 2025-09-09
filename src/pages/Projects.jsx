@@ -3,6 +3,13 @@ import React from "react";
 export default function Projects() {
   const projects = [
     {
+      title: "Nigam Villa",
+      desc: "A real estate website for property listings and management.",
+      img: "/images/nigamvilla.png",
+      demo: "https://nigam-villa.vercel.app/",
+      code: "https://github.com/mrsonung/nigam_villa"
+    },
+    {
       title: "University Project",
       desc: "A platform to manage & display university-related data.",
       img: "/images/university.png",
