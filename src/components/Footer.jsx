@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-left">
           <h3 className="footer-name">Kumar Sonu Nigam</h3>
-          <p className="footer-title">Computer Science Undergraduate & Web Developer</p>
+          <p className="footer-title">I’m Kumar Sonu Nigam — a Computer Science student and web developer dedicated to building impactful digital solutions.</p>
         </div>
         
         <div className="footer-center">

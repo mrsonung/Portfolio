@@ -163,10 +163,10 @@ export default function Home() {
               <h3>Nigam Villa</h3>
               <p>A real estate website for property listings and management.</p>
                 <div>
-                <button className="btn-primary"><a href="https://nigam-villa.vercel.app/" target="_blank" rel="noreferrer" >
+                <button className="btn-primary-home"><a href="https://nigam-villa.vercel.app/" target="_blank" rel="noreferrer" >
                   Live Demo
                 </a></button>
-                <button className="btn-secondary"><a href="https://github.com/mrsonung/nigam_villa" target="_blank" rel="noreferrer" >
+                <button className="btn-secondary-home"><a href="https://github.com/mrsonung/nigam_villa" target="_blank" rel="noreferrer" >
                   GitHub
                 </a></button>
               </div>
@@ -180,10 +180,10 @@ export default function Home() {
               <h3>University Project</h3>
               <p>A platform to manage & display university-related data.</p>
               <div >
-                <button className="btn-primary"><a href="https://makefuture-com.vercel.app/" target="_blank" rel="noreferrer">
+                <button className="btn-primary-home"><a href="https://makefuture-com.vercel.app/" target="_blank" rel="noreferrer">
                   Live Demo
                 </a></button>
-                <button className="btn-secondary"><a href="https://github.com/nigamsahab71/Makefuture.com" target="_blank" rel="noreferrer" >
+                <button className="btn-secondary-home"><a href="https://github.com/nigamsahab71/Makefuture.com" target="_blank" rel="noreferrer" >
                   GitHub
                 </a></button>
               </div>
@@ -197,10 +197,10 @@ export default function Home() {
               <h3>Recipe Finder</h3>
               <p>Web app to search and explore recipes using HTML, CSS, JS API.</p>
               <div>
-                <button className="btn-primary"><a href="https://recipe-app-jade-alpha.vercel.app/" target="_blank" rel="noreferrer" >
+                <button className="btn-primary-home"><a href="https://recipe-app-jade-alpha.vercel.app/" target="_blank" rel="noreferrer" >
                   Live Demo
                 </a></button>
-                <button className="btn-secondary"><a href="https://github.com/nigamsahab71/Recipe-App" target="_blank" rel="noreferrer">
+                <button className="btn-secondary-home"><a href="https://github.com/nigamsahab71/Recipe-App" target="_blank" rel="noreferrer">
                   GitHub
                 </a></button>
               </div>
@@ -214,10 +214,10 @@ export default function Home() {
               <h3>Weather</h3>
               <p>Web app to search and explore Weather using HTML, CSS, JS.</p>
               <div>
-                <button className="btn-primary"><a href="https://weather-alpha-kohl.vercel.app/" target="_blank" rel="noreferrer">
+                <button className="btn-primary-home"><a href="https://weather-alpha-kohl.vercel.app/" target="_blank" rel="noreferrer">
                   Live Demo
                 </a></button>
-                <button className="btn-secondary"><a href="https://github.com/mrsonung/Weather" target="_blank" rel="noreferrer">
+                <button className="btn-secondary-home"><a href="https://github.com/mrsonung/Weather" target="_blank" rel="noreferrer">
                   GitHub
                 </a></button>
               </div>

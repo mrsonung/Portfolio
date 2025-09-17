@@ -230,18 +230,20 @@ a:hover {
   color: var(--primary);
   font-family: "Poppins", "Inter", sans-serif;
   font-weight: 800;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding: 0.8rem 2rem;
-  border-radius: 1.5rem;
-  background: linear-gradient(90deg, rgba(99,102,241,0.08) 0%, rgba(6,182,212,0.08) 100%);
-  box-shadow: 0 6px 32px rgba(99, 102, 241, 0.15), 0 2px 8px rgba(6, 182, 212, 0.10);
-  border: 2px solid var(--accent);
-  text-shadow: 0 0 10px var(--primary), 0 0 20px var(--accent);
+  /* border-radius: 1.5rem; */
+  /* background: linear-gradient(90deg, rgba(99,102,241,0.08) 0%, rgba(6,182,212,0.08) 100%); */
+  /* box-shadow: 0 6px 32px rgba(99, 102, 241, 0.15), 0 2px 8px rgba(6, 182, 212, 0.10); */
+  /* border: 2px solid var(--accent); */
+  /* text-shadow: 0 0 10px var(--primary), 0 0 20px var(--accent); */
+  animation: glow 2s infinite alternate;
+  
 }
 
 @keyframes glow {
-  from { text-shadow: 0 0 10px var(--primary); }
-  to { text-shadow: 0 0 20px var(--accent); }
+  /* from { text-shadow: 0 0 10px var(--primary); }
+  to { text-shadow: 0 0 20px var(--accent); } */
 }
 
 .cta-buttons {
@@ -344,6 +346,9 @@ a:hover {
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin-top: 2rem;
+  text-align: center;
+
+  
 }
 
 /* Skills Grid */
@@ -1492,4 +1497,62 @@ circle.bg {
   .nav-menu .btn-secondary {
     width: 90%;
   }
+}
+.btn-primary-home{
+  background: var(--text);
+  color: #fff;
+  box-shadow: var(--shadow);
+  padding: 0.8rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: var(--transition);
+  display: inline-block;
+  margin-top: 1rem;
+  border: 2px solid var(gray);
+  borfer-radius: 10px;
+  border: none;
+}
+.btn-primary-home:hover {
+  transform: translateY(-3px) scale(1.05);
+  background: var(gray);
+}
+
+.btn-secondary-home {
+  border: 1px solid var(--muted);
+  color: var(--text);
+  margin-left: 0.8rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: var(--transition);
+  display: inline-block;
+  margin-top: 1rem;
+  border: none;
+}
+.btn-secondary-home:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-3px);
+}
+
+
+/* ---------- ADDITIONAL STYLES FOR ENHANCEMENT ---------- */
+.card{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+
 }
