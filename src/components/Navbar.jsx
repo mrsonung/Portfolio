@@ -26,7 +26,7 @@ export default function Navbar() {
         <Link to="/experience">Experience</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
-        <a href="/resume.pdf" download className="btn-secondary">
+        <a href="/kumar_sonu_nigam_resume.pdf" download className="btn-secondary">
           Resume
         </a>
         <button onClick={toggleTheme} className="theme-toggle">

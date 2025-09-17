@@ -21,8 +21,8 @@ export default function Contact() {
         </div>
         <div className="card">
           <h3>💻 GitHub</h3>
-          <a href="https://github.com/nigamsahab71" target="_blank" rel="noreferrer">
-            github.com/nigamsahab71
+          <a href="https://github.com/mrsonung" target="_blank" rel="noreferrer">
+            github.com/mrsonung
           </a>
         </div>
         <div className="card">
