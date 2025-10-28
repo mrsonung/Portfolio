@@ -106,6 +106,15 @@ export default function Home() {
       {/* Experience Section */}
       <div className="home-section fade-in" id="experience">
         <h2>Experience</h2>
+        <div className="card slide-in>
+        <h3>Full Stack Web Developer & Social Media Manager</h3>
+        <span className="muted">Bullgains.in • Sept 2025 – Present</span>
+        <ul className="experience-list">
+          Developing and maintaining full-stack web applications, managing
+          social media platforms, and implementing data-driven marketing
+          strategies to boost online engagement and brand presence.
+        </ul>
+      </div>
         <div className="card slide-in">
           <h3>Web Developer Intern</h3>
           <span className="muted">Celebrino • Jul 2025 – Aug 2025 (On-site)</span>
