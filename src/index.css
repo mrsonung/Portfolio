@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 14, 165, 233;
+    --secondary: 139, 92, 246;
+    --dark: 3, 7, 18;
+  }
+
+  * {
+    @apply border-white/10;
+  }
+
+  body {
+    @apply bg-dark text-light font-sora selection:bg-primary/30 selection:text-primary overflow-x-hidden;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 hover:border-primary/50 transition-all duration-300;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(14, 165, 233, 0.5);
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-full font-semibold hover:bg-primary/80 transition-all duration-300 flex items-center gap-2 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white/10 text-white rounded-full font-semibold hover:bg-white/20 border border-white/10 transition-all duration-300 flex items-center gap-2 active:scale-95;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 py-20;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-primary/50 transition-colors;
+}
+
+/* Lenis CSS */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
