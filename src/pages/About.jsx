@@ -37,7 +37,7 @@ export default function About() {
                 <li className="flex gap-4">
                   <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center text-primary shrink-0 mt-1">✓</div>
                   <div>
-                    <h4 className="text-white font-semibold mb-1">Full Stack Development</h4>
+                    <h4 className="text-white font-semibold mb-1">Frontend Engineer</h4>
                     <p className="text-sm">End-to-end application development using modern technologies.</p>
                   </div>
                 </li>

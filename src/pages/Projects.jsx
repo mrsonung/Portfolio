@@ -7,32 +7,134 @@ const projects = [
   {
     id: 1,
     title: "Eventra",
-    description: "AI-powered smart event management platform featuring QR verification, face recognition attendance, and a comprehensive admin dashboard.",
-    tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "Face API"],
+    description: "AI-powered smart event management platform featuring QR verification, face recognition attendance, ticket booking, authentication, admin dashboard, and real-time event management.",
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Cloudinary",
+      "Tailwind CSS"
+    ],
     live: "https://eventra-jet.vercel.app/",
     github: "https://github.com/mrsonung/eventra",
     image: "/images/eventra.png",
-    color: "from-blue-600 to-cyan-500"
+    color: "from-purple-600 to-pink-500"
   },
+
   {
     id: 2,
     title: "EduBridge",
-    description: "Educational platform connecting students and teachers with modern UI, secure authentication, and resource sharing capabilities.",
-    tech: ["React.js", "Firebase", "Node.js", "Tailwind CSS"],
+    description: "Modern educational platform connecting students and teachers with authentication, responsive UI, dashboard features, and seamless user experience.",
+    tech: [
+      "React.js",
+      "Firebase",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
     live: "https://edubridge-ruby.vercel.app/",
     github: "https://github.com/mrsonung/edubridge",
     image: "/images/edubridge.png",
-    color: "from-purple-600 to-pink-500"
+    color: "from-blue-600 to-cyan-500"
   },
+
   {
     id: 3,
     title: "BullGains",
     description: "Professional business and investment platform with a highly responsive UI, optimized for performance and conversion.",
-    tech: ["React.js", "Tailwind CSS", "JavaScript", "Framer Motion"],
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Framer Motion"
+    ],
     live: "https://bullgains.in",
     github: "https://github.com/mrsonung/bullgains",
     image: "/images/bullgains.png",
     color: "from-green-600 to-emerald-500"
+  },
+
+  {
+   id: 4,
+    title: "Portfolio Website",
+    description: "Personal developer portfolio featuring animated UI, responsive layouts, project showcases, smooth transitions, and modern web design.",
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "JavaScript"
+    ],
+    live: "",
+    github: "https://github.com/mrsonung/portfolio",
+    image: "/images/portfolio.png",
+    color: "from-cyan-500 to-teal-500"
+  },
+
+  {
+     id: 5,
+    title: "NigamVilla",
+    description: "Modern real estate and property showcase platform with responsive UI, premium design aesthetics, smooth navigation, and optimized user experience.",
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Framer Motion",
+      "Responsive Design"
+    ],
+    live: "",
+    github: "https://github.com/mrsonung/nigamvilla",
+    image: "/images/nigamvilla.png",
+    color: "from-amber-500 to-orange-600"
+  },
+
+  {
+    id: 6,
+    title: "Recipe Finder",
+    description: "Interactive recipe search platform allowing users to explore recipes dynamically using external APIs and modern UI design.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API Integration"
+    ],
+    live: "",
+    github: "https://github.com/mrsonung/recipe-finder",
+    image: "/images/recipe.png",
+    color: "from-yellow-500 to-orange-500"
+  },
+
+  {
+    id: 7,
+    title: "University Project",
+    description: "Comprehensive university management platform designed to manage students, faculty, courses, attendance, results, and administrative operations through a centralized dashboard.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    live: "",
+    github: "https://github.com/mrsonung/University-Project",
+    image: "/images/university.png",
+    color: "from-indigo-500 to-purple-500"
+  },
+
+  {
+    id: 8,
+    title: "Password Generator",
+    description: "Secure and responsive password generator application that creates strong random passwords with customizable length, symbols, numbers, and copy-to-clipboard functionality.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Local Storage"
+    ],
+    live: "",
+    github: "https://github.com/mrsonung/PassGenerator",
+    image: "/images/pass.png",
+    color: "from-rose-500 to-pink-500"
   }
 ];
 

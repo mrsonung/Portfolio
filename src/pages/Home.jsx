@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaDownload } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import profilePic from "../assets/profile.jpg";
+import homepic from "../assets/3.jpg";
 import Section from "../components/ui/Section";
 import Magnetic from "../components/ui/Magnetic";
 
-const roles = ["UI Developer Trainee @ Chetu Inc", "Full Stack Developer", "MERN Stack Engineer"];
+const roles = ["UI Developer Trainee @ Chetu Inc", "Frontend Developer", "MERN Stack Engineer"];
 
 export default function Home() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -57,8 +57,8 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Full Stack <br />
-            <span className="text-primary">Developer</span>
+            Frontend <br />
+            <span className="text-primary">Engineer</span>
           </motion.h1>
 
           <motion.div
@@ -126,7 +126,7 @@ export default function Home() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-secondary animate-pulse blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
             <div className="relative rounded-full border-2 border-white/10 p-4 group-hover:border-primary/50 transition-colors">
               <img
-                src={profilePic}
+                src={homepic}
                 alt="Kumar Sonu Nigam"
                 className="w-full h-full object-cover rounded-full shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 scale-95 group-hover:scale-100"
               />

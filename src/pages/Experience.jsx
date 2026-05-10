@@ -48,6 +48,13 @@ const education = [
     period: "2019 - 2021",
     description: "Completed higher secondary education with a strong focus on Mathematics and Physics.",
     type: "edu"
+  },
+  {
+    title: "High School",
+    institution: "High School Makhdumpur Jehanabad",
+    period: "2018 - 2019",
+    description: "Completed high school education.",
+    type: "edu"
   }
 ];
 
