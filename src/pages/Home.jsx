@@ -133,108 +133,111 @@ export default function Home() {
             </div>
             
             {/* Floating Tech Icons */}
- <motion.div
-          className="absolute top-[20px] left-[40px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ y: [0, -12, 0] }}
-          transition={{ duration: 4, repeat: Infinity }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            className="w-9 h-9"
-            alt="HTML"
-          />
-        </motion.div>
+ {/* ================= FLOATING ICONS ================= */}
 
-        {/* React */}
-        <motion.div
-          className="absolute top-[10px] right-[70px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ rotate: [0, 360] }}
-          transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            className="w-9 h-9"
-            alt="React"
-          />
-        </motion.div>
+{/* HTML */}
+<motion.div
+  className="absolute top-[40px] left-[35px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ y: [0, -10, 0] }}
+  transition={{ duration: 4, repeat: Infinity }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    className="w-9 h-9"
+    alt="HTML"
+  />
+</motion.div>
 
-        {/* Figma */}
-        <motion.div
-          className="absolute top-[120px] right-[-10px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 5, repeat: Infinity }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-            className="w-9 h-9"
-            alt="Figma"
-          />
-        </motion.div>
+{/* React */}
+<motion.div
+  className="absolute top-[15px] right-[85px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ rotate: [0, 360] }}
+  transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    className="w-9 h-9"
+    alt="React"
+  />
+</motion.div>
 
-        {/* GitHub */}
-        <motion.div
-          className="absolute top-[170px] right-[-35px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ scale: [1, 1.08, 1] }}
-          transition={{ duration: 4, repeat: Infinity }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            className="w-9 h-9 invert"
-            alt="GitHub"
-          />
-        </motion.div>
+{/* Figma */}
+<motion.div
+  className="absolute top-[120px] right-[-5px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ y: [0, 8, 0] }}
+  transition={{ duration: 5, repeat: Infinity }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    className="w-9 h-9"
+    alt="Figma"
+  />
+</motion.div>
 
-        {/* CSS */}
-        <motion.div
-          className="absolute bottom-[40px] right-[40px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ y: [0, 12, 0] }}
-          transition={{ duration: 5, repeat: Infinity }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            className="w-9 h-9"
-            alt="CSS"
-          />
-        </motion.div>
+{/* GitHub */}
+<motion.div
+  className="absolute top-[195px] right-[-28px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ scale: [1, 1.08, 1] }}
+  transition={{ duration: 4, repeat: Infinity }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    className="w-9 h-9 invert"
+    alt="GitHub"
+  />
+</motion.div>
 
-        {/* MongoDB */}
-        <motion.div
-          className="absolute bottom-[20px] left-[80px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 3.5, repeat: Infinity }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-            className="w-9 h-9"
-            alt="MongoDB"
-          />
-        </motion.div>
+{/* CSS */}
+<motion.div
+  className="absolute bottom-[55px] right-[35px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ y: [0, 10, 0] }}
+  transition={{ duration: 5, repeat: Infinity }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    className="w-9 h-9"
+    alt="CSS"
+  />
+</motion.div>
 
-        {/* Git */}
-        <motion.div
-          className="absolute bottom-[140px] left-[-20px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ rotate: [0, 10, 0] }}
-          transition={{ duration: 5, repeat: Infinity }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            className="w-9 h-9"
-            alt="Git"
-          />
-        </motion.div>
+{/* MongoDB */}
+<motion.div
+  className="absolute bottom-[25px] left-[90px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ y: [0, -8, 0] }}
+  transition={{ duration: 3.5, repeat: Infinity }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    className="w-9 h-9"
+    alt="MongoDB"
+  />
+</motion.div>
 
-        {/* C */}
-        <motion.div
-          className="absolute top-[170px] left-[-25px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl bg-white/10 backdrop-blur-lg"
-          animate={{ x: [0, -8, 0] }}
-          transition={{ duration: 4, repeat: Infinity }}
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-            className="w-9 h-9"
-            alt="C"
-          />
-        </motion.div>
+{/* Git */}
+<motion.div
+  className="absolute bottom-[145px] left-[-10px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ rotate: [0, 8, 0] }}
+  transition={{ duration: 5, repeat: Infinity }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    className="w-9 h-9"
+    alt="Git"
+  />
+</motion.div>
+
+{/* C */}
+<motion.div
+  className="absolute top-[205px] left-[-20px] w-16 h-16 glass rounded-2xl flex items-center justify-center shadow-2xl z-20"
+  animate={{ x: [0, -6, 0] }}
+  transition={{ duration: 4, repeat: Infinity }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+    className="w-9 h-9"
+    alt="C"
+  />
+</motion.div>
           </div>
         </motion.div>
       </Section>
