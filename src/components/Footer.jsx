@@ -42,7 +42,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-4 text-gray-400">
             <li>ksonunigam2004@gmail.com</li>
             <li>+91 72770 86852</li>
-            <li>Bihar, India</li>
+            <li>Noida, India</li>
           </ul>
         </div>
       </div>
