@@ -17,8 +17,8 @@ const projects = [
       "Cloudinary",
       "Tailwind CSS"
     ],
-    live: "https://eventra-jet.vercel.app/",
-    github: "https://github.com/mrsonung/eventra",
+    live: "https://eventraind.onrender.com/",
+    github: "https://github.com/krsonunigam/eventra",
     image: "/images/eventra.png",
     color: "from-purple-600 to-pink-500"
   },
