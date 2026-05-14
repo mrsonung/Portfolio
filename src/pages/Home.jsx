@@ -133,14 +133,12 @@ export default function Home() {
             </div>
             
             {/* Floating Tech Icons */}
- {/* ================= FLOATING ICONS ================= */}
-
 {/* ================= FLOATING TECH ICONS ================= */}
 
 {/* HTML */}
 <motion.div
-  className="absolute top-[55px] left-[90px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute top-[40px] left-[70px] w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ y: [0, -8, 0] }}
   transition={{ duration: 4, repeat: Infinity }}
@@ -154,11 +152,11 @@ export default function Home() {
 
 {/* React */}
 <motion.div
-  className="absolute top-[10px] right-[115px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute top-[5px] left-1/2 -translate-x-1/2 w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ rotate: [0, 360] }}
-  transition={{ duration: 14, repeat: Infinity, ease: "linear" }}
+  transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
 >
   <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -169,8 +167,8 @@ export default function Home() {
 
 {/* FIGMA */}
 <motion.div
-  className="absolute top-[140px] right-[5px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute top-[90px] right-[20px] w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ y: [0, 8, 0] }}
   transition={{ duration: 5, repeat: Infinity }}
@@ -184,8 +182,8 @@ export default function Home() {
 
 {/* GITHUB */}
 <motion.div
-  className="absolute top-[250px] right-[20px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute top-1/2 -right-[15px] -translate-y-1/2 w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ scale: [1, 1.08, 1] }}
   transition={{ duration: 4, repeat: Infinity }}
@@ -199,8 +197,8 @@ export default function Home() {
 
 {/* CSS */}
 <motion.div
-  className="absolute bottom-[90px] right-[80px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute bottom-[70px] right-[40px] w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ y: [0, 10, 0] }}
   transition={{ duration: 5, repeat: Infinity }}
@@ -212,10 +210,10 @@ export default function Home() {
   />
 </motion.div>
 
-{/* MONGODB */}
+{/* MongoDB */}
 <motion.div
-  className="absolute bottom-[65px] left-[120px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute bottom-[20px] left-1/2 -translate-x-1/2 w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ y: [0, -8, 0] }}
   transition={{ duration: 3.5, repeat: Infinity }}
@@ -229,8 +227,8 @@ export default function Home() {
 
 {/* GIT */}
 <motion.div
-  className="absolute bottom-[180px] left-[15px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute bottom-[70px] left-[40px] w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ rotate: [0, 10, 0] }}
   transition={{ duration: 5, repeat: Infinity }}
@@ -244,8 +242,8 @@ export default function Home() {
 
 {/* C */}
 <motion.div
-  className="absolute top-[230px] left-[0px] w-14 h-14 rounded-2xl 
-  bg-white/10 backdrop-blur-md border border-white/10 
+  className="absolute top-1/2 -left-[15px] -translate-y-1/2 w-14 h-14 rounded-2xl
+  bg-white/10 backdrop-blur-md border border-white/10
   flex items-center justify-center shadow-xl"
   animate={{ x: [0, -5, 0] }}
   transition={{ duration: 4, repeat: Infinity }}
