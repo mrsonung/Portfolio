@@ -135,8 +135,10 @@ export default function Home() {
             {/* Floating Tech Icons */}
 {/* React Icon */}
 <motion.div
-  className="absolute top-[20px] right-[90px] w-14 h-14 glass rounded-2xl flex items-center justify-center shadow-xl"
-  animate={{ y: [0, -10, 0], rotate: [0, 5, 0] }}
+  className="absolute top-[35px] right-[70px] 
+  w-14 h-14 glass rounded-2xl 
+  flex items-center justify-center shadow-xl z-20"
+  animate={{ y: [0, -10, 0] }}
   transition={{ duration: 4, repeat: Infinity }}
 >
   <img
@@ -148,8 +150,10 @@ export default function Home() {
 
 {/* Figma Icon */}
 <motion.div
-  className="absolute bottom-[40px] left-[90px] w-14 h-14 glass rounded-2xl flex items-center justify-center shadow-xl"
-  animate={{ y: [0, 10, 0], rotate: [0, -5, 0] }}
+  className="absolute bottom-[85px] left-[70px] 
+  w-14 h-14 glass rounded-2xl 
+  flex items-center justify-center shadow-xl z-20"
+  animate={{ y: [0, 10, 0] }}
   transition={{ duration: 5, repeat: Infinity }}
 >
   <img
