@@ -135,11 +135,9 @@ export default function Home() {
             {/* Floating Tech Icons */}
 {/* React Icon */}
 <motion.div
-  className="absolute top-[35px] right-[70px] 
-  w-14 h-14 glass rounded-2xl 
-  flex items-center justify-center shadow-xl z-20"
+  className="absolute top-[30px] right-[60px] w-12 h-12 glass rounded-xl flex items-center justify-center shadow-xl z-20"
   animate={{ y: [0, -10, 0] }}
-  transition={{ duration: 4, repeat: Infinity }}
+  transition={{ duration: 3, repeat: Infinity }}
 >
   <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -148,18 +146,16 @@ export default function Home() {
   />
 </motion.div>
 
-{/* Figma Icon */}
+{/* MongoDB / Figma Icon */}
 <motion.div
-  className="absolute bottom-[85px] left-[70px] 
-  w-14 h-14 glass rounded-2xl 
-  flex items-center justify-center shadow-xl z-20"
+  className="absolute bottom-[70px] left-[60px] w-12 h-12 glass rounded-xl flex items-center justify-center shadow-xl z-20"
   animate={{ y: [0, 10, 0] }}
-  transition={{ duration: 5, repeat: Infinity }}
+  transition={{ duration: 4, repeat: Infinity }}
 >
   <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
     className="w-8 h-8"
-    alt="Figma"
+    alt="MongoDB"
   />
 </motion.div>
           </div>
