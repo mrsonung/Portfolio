@@ -145,19 +145,6 @@ export default function Home() {
     alt="React"
   />
 </motion.div>
-
-{/* MongoDB / Figma Icon */}
-<motion.div
-  className="absolute bottom-[70px] left-[60px] w-12 h-12 glass rounded-xl flex items-center justify-center shadow-xl z-20"
-  animate={{ y: [0, 10, 0] }}
-  transition={{ duration: 4, repeat: Infinity }}
->
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-    className="w-8 h-8"
-    alt="MongoDB"
-  />
-</motion.div>
           </div>
         </motion.div>
       </Section>
