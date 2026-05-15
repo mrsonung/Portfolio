@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaDownload } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import homepic from "../assets/3.jpg";
+import homepic from "../assets/profileimg.png";
 import Section from "../components/ui/Section";
 import Magnetic from "../components/ui/Magnetic";
 
